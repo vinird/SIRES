@@ -31,6 +31,7 @@ public class GUISIRES extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
         mbSIRES = new javax.swing.JMenuBar();
         mnArchivo = new javax.swing.JMenu();
         mniSalir = new javax.swing.JMenuItem();
@@ -41,12 +42,13 @@ public class GUISIRES extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenuItemInformeMatricula = new javax.swing.JMenuItem();
         jMenuItem_Tabla_Estudiante = new javax.swing.JMenuItem();
-        jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sistemas de Registros de Estudiantes (SIRES)");
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setResizable(false);
+
+        jLabel1.setText("jLabel1");
 
         mnArchivo.setText("Archivo");
 
@@ -96,14 +98,6 @@ public class GUISIRES extends javax.swing.JFrame {
         jMenuItem_Tabla_Estudiante.setText("Mostrar tabla de Estudiante");
         jMenu1.add(jMenuItem_Tabla_Estudiante);
 
-        jMenuItem1.setText("Git Hup");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
-            }
-        });
-        jMenu1.add(jMenuItem1);
-
         mbSIRES.add(jMenu1);
 
         setJMenuBar(mbSIRES);
@@ -112,11 +106,17 @@ public class GUISIRES extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 483, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(80, 80, 80)
+                .addComponent(jLabel1)
+                .addContainerGap(354, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 159, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(51, 51, 51)
+                .addComponent(jLabel1)
+                .addContainerGap(90, Short.MAX_VALUE))
         );
 
         pack();
@@ -137,10 +137,6 @@ public class GUISIRES extends javax.swing.JFrame {
     private void jMenuItem_MatriculaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem_MatriculaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem_MatriculaActionPerformed
-
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -178,8 +174,8 @@ public class GUISIRES extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItemInformeMatricula;
     private javax.swing.JMenuItem jMenuItem_Matricula;
     private javax.swing.JMenuItem jMenuItem_Tabla_Estudiante;

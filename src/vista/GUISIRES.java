@@ -31,7 +31,6 @@ public class GUISIRES extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         mbSIRES = new javax.swing.JMenuBar();
         mnArchivo = new javax.swing.JMenu();
         mniSalir = new javax.swing.JMenuItem();
@@ -47,8 +46,6 @@ public class GUISIRES extends javax.swing.JFrame {
         setTitle("Sistemas de Registros de Estudiantes (SIRES)");
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setResizable(false);
-
-        jLabel1.setText("jLabel1");
 
         mnArchivo.setText("Archivo");
 
@@ -106,17 +103,11 @@ public class GUISIRES extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(80, 80, 80)
-                .addComponent(jLabel1)
-                .addContainerGap(354, Short.MAX_VALUE))
+            .addGap(0, 483, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(51, 51, 51)
-                .addComponent(jLabel1)
-                .addContainerGap(90, Short.MAX_VALUE))
+            .addGap(0, 159, Short.MAX_VALUE)
         );
 
         pack();
@@ -174,7 +165,6 @@ public class GUISIRES extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuItem jMenuItemInformeMatricula;
     private javax.swing.JMenuItem jMenuItem_Matricula;

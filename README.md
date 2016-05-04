@@ -8,9 +8,9 @@ Control de versiones
 **``git init``**
 
 ### Agregar archivos al estado "stage"
-**``git add nombreDelAchivo``**
-**``git add '*.extensiónDelArchivo'``**
-**``git add -A``**		// agrega todos los archivos al "stage"
+	**``git add nombreDelAchivo``**
+	**``git add '*.extensiónDelArchivo'``**
+	**``git add -A``**		// agrega todos los archivos al "stage"
 
 ## Hacer un commit
 	git commit -m "mensaje del commit"

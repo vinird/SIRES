@@ -1,16 +1,16 @@
 # SIRES
 Control de versiones 
 
-# COMANDOS PARA LA UTILIZACIÓN DE GIT
+## COMANDOS PARA LA UTILIZACIÓN DE GIT
 
 
-## Iniciar Git en un proyecto
+### Iniciar Git en un proyecto
 **``git init``**
 
-## Agregar archivos al estado "stage"
-	git add nombreDelAchivo
-	git add '*.extensiónDelArchivo'
-	git add -A		// agrega todos los archivos al "stage"
+### Agregar archivos al estado "stage"
+**``git add nombreDelAchivo``**
+**``git add '*.extensiónDelArchivo'``**
+**``git add -A``**		// agrega todos los archivos al "stage"
 
 ## Hacer un commit
 	git commit -m "mensaje del commit"
